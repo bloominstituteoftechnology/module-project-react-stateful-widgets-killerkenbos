@@ -8,7 +8,7 @@ const urlPeople = 'http://localhost:9009/api/people'
 function App() {
   const [peopleData, setPeopleData] = useState([])
   const [planetData, setPlanetData] = useState([])
-
+//lookv
   useEffect(() => {
     axios.get(urlPeople)
     .then(res => setPeopleData(res.data))
